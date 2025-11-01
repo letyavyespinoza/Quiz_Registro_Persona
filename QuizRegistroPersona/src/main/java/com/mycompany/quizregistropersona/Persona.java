@@ -8,7 +8,6 @@ public class Persona {
     private String correo;
     private String telefono;
 
-    // Constructor simple
     public Persona(String nombreCompleto, String id, int edad, String correo, String telefono) {
         this.nombreCompleto = nombreCompleto;
         this.id = id;
@@ -17,7 +16,6 @@ public class Persona {
         this.telefono = telefono;
     }
 
-    // Getters
     public String getNombreCompleto() { return nombreCompleto; }
     public String getId() { 
         return id; 
